@@ -1,3 +1,8 @@
+
+
+
+
+
 .App {
   text-align: center;
 }
@@ -14,7 +19,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #10234a;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,6 +32,52 @@
 .App-link {
   color: #61dafb;
 }
+body{
+  background: #6a7ee6f2;
+  font-family: 'Montserrat';
+}
+.btn{
+  border: 0; 
+  background-color: #F55A00;
+ 
+  color: #FFFF;
+
+  width: 100%;
+  text-transform: uppercase;
+  cursor: pointer;
+  
+}
+label{
+display: flex;
+justify-content: center;
+}
+.ak{
+  background-color: #61dafb;
+}
+
+header{
+  background-color: #F55A00;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.btn:hover{
+  background-color: rgb(250, 205, 149);
+  color: #FFF;
+  font-size: 20px;
+  letter-spacing: .2rem;
+}
+
+
+
+
+
+
+
 
 @keyframes App-logo-spin {
   from {
